@@ -1,1 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Pune - The Oxford of the East</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="puneImg.jpg" alt="Pune Logo" class="logo-img">
+                <span class="logo-text">पुणे</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#tabs" class="nav-link">Explore</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Pune</h1>
+            <div class="taglines">
+                <p class="tagline active">&bull; The Oxford of the East &bull;</p>
+                <p class="tagline">&bull; Where Culture Meets Progress &bull;</p>
+                <p class="tagline">&bull; A City of Festivals and Heritage &bull;</p>
+                <p class="tagline">&bull; Innovation Hub of India &bull;</p>
+            </div>
+            <button class="explore-btn">Explore More ↓</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2>About Pune</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>&bull; Location</h3>
+                    <p>Nestled in the Deccan Plateau, Pune is located in Maharashtra, India. Known for its pleasant climate and lush green surroundings.</p>
+                </div>
+                <div class="about-card">
+                    <h3>&bull; Heritage</h3>
+                    <p>A major center of education and culture, Pune has been a hub of learning since the 18th century with numerous prestigious institutions.</p>
+                </div>
+                <div class="about-card">
+                    <h3>&bull; Modern City</h3>
+                    <p>Today, Pune is a thriving IT hub and industrial center, blending ancient traditions with modern technology and innovation.</p>
+                </div>
+                <div class="about-card">
+                    <h3>&bull; Culture</h3>
+                    <p>Home to Ganesh Chaturthi celebrations, classical arts, theatre, and a vibrant nightlife that attracts people from across the world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabs Section -->
+    <section id="tabs" class="tabs-section">
+        <div class="tabs-container">
+            <h2>Discover Pune</h2>
+            
+            <!-- Tab Navigation -->
+            <div class="tab-navigation">
+                <button class="tab-btn active" data-tab="places">Places to Visit</button>
+                <button class="tab-btn" data-tab="nonveg">Food</button>
+
+                <button class="tab-btn" data-tab="shopping">Shopping</button>
+               
+            </div>
+
+            <!-- Tab Contents -->
+            <div class="tab-contents">
+                <!-- Places to Visit -->
+                <div class="tab-content active" id="places">
+                    <h3>Places to Visit</h3>
+                    <div class="content-grid">
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=dagdu+sheth&cp=18.950158%7E92.174896&lvl=4&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('dagdu\ sheth.jpg');"></div>
+                            <h4>Dagdu Sheth Halwai Ganpati</h4>
+                            <p>highly revered temple dedicated to Lord Ganesha, attracting millions of devotees annually</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=shanivar+wada&cp=18.519751%7E73.855339&lvl=16&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('sw.jpg');"></div>
+                            <h4>Shaniwar Wada</h4>
+                            <p>A historic fortified palace built in 1732, located in the heart of Pune. Famous for its massive wooden gates and stunning architecture.</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=aga+khan+palace&cp=18.552679%7E73.901543&lvl=16&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('agaKhanPalace.jpg');"></div>
+                            <h4>Aga Khan Palace</h4>
+                            <p>Built in 1892, this palace served as a prison during India's independence movement. Now a museum showcasing India's freedom struggle.</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=osho+ashram+pune&cp=18.536718%7E73.887772&lvl=16&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('osho.webp');"></div>
+                            <h4>Osho Ashram</h4>
+                            <p>A spiritual center attracting visitors from around the world. Known for meditation programs and serene surroundings in Koregaon Park.</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=sinhagad+fort&cp=18.366291%7E73.755875&lvl=16&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('fort.jpg');"></div>
+                            <h4>Sinhagad Fort</h4>
+                            <p>Sinhagad (also known as the Lion's Fort) is an ancient hill fortress located at around 28 kilometres southwest of the city of Pune.</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=friendship+garden+pune&cp=18.594254%7E73.968201&lvl=11&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('garden.jpg');"></div>
+                            <h4>Okayama Friendship Garden</h4>
+                            <p>An ancient temple located at the confluence of rivers Mula and Mutha, offering spiritual solace and scenic beauty.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Non-Veg Food Places -->
+                <div class="tab-content" id="nonveg">
+                    <h3>Best Food Places</h3>
+                                       <div class="content-grid">
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=kayani+bakery+pune&cp=18.514812%7E73.879913&lvl=16&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('bakery.webp');"></div>
+                            <h4>Kayani Bakery</h4>
+                            <p>You can't come to Pune and not try the Shrewsbury biscuits from Kayani Bakery. They bake over 300 kilos of these buttery delights daily, and they’re almost always sold out</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=cafe+goodluck+pune&cp=18.950158%7E92.174896&lvl=4&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('cafeg.webp');"></div>
+                            <h4>Cafe Goodluck</h4>
+                            <p>Goodluck Cafe is more than just a restaurant; it’s a place where food, culture, and hospitality come together. Established in 1935 by Hussain Ali Yakhshi, Goodluck Cafe stands as one of Pune’s oldest Irani establishments</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&style=r&q=Durvankur+Dining+Hall%2C+1166%2C+New+Sadashiv+Peth%2C+Sadashiv+Peth%2C+Pune%2C+Maharashtra%2C+India&ss=id.local_ypid%3A%22YN4070x251940713%22&st=Durvankur+Dining+Hall&sfa=1166%2C+New+Sadashiv+Peth%2C+Sadashiv+Peth%2C+Pune%2C+Maharashtra%2C+India&cp=18.510721%7E73.846107&lvl=16" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('dd.jpg');"></div>
+                            <h4>Durvankur Dining Hall</h4>
+                            <p>For more than 20 years, Durvankur in Tilak Road has pleased the locals with its delicious vegetarian thalis in an unpretentious environment.</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&style=r&q=Sujata+Mastani%2C+1260%2C+Nimbalkar+Talim+Chowk%2C+Sadashiv+Peth%2C+Pune+411030%2C+Maharashtra%2C+India&ss=id.local_ypid%3A%22YN4070x11439651720951673649%22&st=Sujata+Mastani&sfa=1260%2C+Nimbalkar+Talim+Chowk%2C+Sadashiv+Peth%2C+Pune+411030%2C+Maharashtra%2C+India&cp=18.511761%7E73.852020&lvl=16" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('ss.jpg');"></div>
+                            <h4>Sujata Mastani</h4>
+                            <p>If you're a true Punekar, you're no stranger to the iconic Sujata Mastani, a place that's become synonymous with the city's dessert culture.</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&style=r&q=camp+burger+pune&cp=18.514300%7E73.882202&lvl=15.1" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('bb.webp');"></div>
+                            <h4>Camp Burger</h4>
+                            <p>Pune Burger Camp Branch, popularly known as Burger King Pune, is an iconic fast-food joint that has been serving delicious burgers since 1989</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=SP%27s+biryani+house+pune&cp=18.950158%7E92.174896&lvl=4&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('bir.webp');"></div>
+                            <h4>SP's Biryani House</h4>
+                            <p> Known for its flavorful biryanis, this restaurant offers a variety of non-vegetarian dishes, including chicken and mutton options.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Shopping -->
+                <div class="tab-content" id="shopping">
+                    <h3>Best Places for Shopping</h3>
+                                                          <div class="content-grid">
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&q=tulshi+bag+pune&cp=18.534249%7E73.904835&lvl=13.6&style=r" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('tb.jpg');"></div>
+                            <h4>Tulshi Baug</h4>
+                            <p>Tulsi Bag is in the heart of Pune and a haven for street shopping. Super famous for ready-made garments, you will find rows of shops available for your customised fittings here.</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&style=r&q=fc+road+pune&cp=18.528925%7E73.843651&lvl=16" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('fc.jpg');"></div>
+                            <h4>Fergusson College Road</h4>
+                            <p>F.C. Road is a college crowd hotspot and perhaps one of the most lively areas for shopping in Pune. The prices of clothing here are too good to be true. Earrings and bags here are to die for!</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&style=r&q=abc+pune&secq=ABC+Books+Market&sece=ypid%3AYN4070x4303218036923324658&cp=18.516582%7E73.854172&lvl=16" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('ab.jpg');"></div>
+                            <h4>ABC, Pune</h4>
+                            <p>Appa Balwant Chowk, conveniently called ABC, is for all book lovers. With wide price ranges, the stationary shops offer all you need to satisfy your stationery obsession. </p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&style=r&q=laxmi+road+pune&cp=18.527313%7E73.870674&lvl=13.9" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('lr.jpg');"></div>
+                            <h4> Laxmi Road</h4>
+                            <p>Located in the older part of the city, Laxmi Road is almost like its very heart. One of the oldest and most well-known markets in Pune, it is famous for its traditional wares such as Paithani Sarees, silk sarees, designer sarees etc.</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&style=r&q=mg+road+pune&cp=18.505809%7E73.878134&lvl=16" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('mg.jpg');"></div>
+                            <h4>M.G. Road</h4>
+                            <p>Mahatma Gandhi Road or M.G. Road, as it is better known locally, is one of the principal shopping places in Pune. It is a truly diverse and vibrant market that has some of the best malls on one hand and fast, smart street fashion in the other</p>
+                        </a>
+                        <a href="https://www.bing.com/maps/search?FORM=HDRSC4&style=r&q=fashion+street+pune&cp=18.509145%7E73.879168&lvl=16" class="item-card" target="_blank">
+                            <div class="item-image" style="background-image: url('fs.jpg');"></div>
+                            <h4>Fashion Street</h4>
+                            <p>One of the most popular places for shopping in Pune, Fashion Street will give you a wardrobe makeover at the budget price. The clothing here is so cheap! Similar to the one in Mumbai</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="gallery-container">
+            <h2>Pune Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-img"  style="background-image: url('dhol.webp');"></div>
+                    <p>Pune dhol</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"  style="background-image: url('kd.webp');"></div>
+                    <p>khadakwasala Dam</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"  style="background-image: url('is.webp');"></div>
+                    <p>Iscon</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"  style="background-image: url('bhs.webp');"></div>
+                    <p>BHS</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"  style="background-image: url('kp.jpg');"></div>
+                    <p>Temples & Culture</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img"  style="background-image: url('nn.webp');"></div>
+                    <p>Natural Beauty</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to get the latest information about Pune</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Pune</h4>
+                <p>Discover the magic of Pune - a city where heritage meets modernity, culture meets progress, and history meets innovation.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tabs">Explore</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📍 Pune, Maharashtra, India</p>
+                <p>📧 info@puneinfo.com</p>
+                <p>📱 +91 XXXXX XXXXX</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Welcome to Pune. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
